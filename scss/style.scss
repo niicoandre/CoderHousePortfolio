@@ -1,0 +1,53 @@
+//Partials importados
+@use 'textstyles';
+      
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url("../images/background1.png");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    .Hero {
+        padding-left: 2rem;
+        border: 2px solid black;
+    }
+    .Project {
+        border: solid 2px black;
+        margin: 2rem;
+       
+        .ProjectText {
+            padding-left: 4em;
+            p{ 
+                letter-spacing: 0.25em;
+                line-height: 1.7em;
+                word-spacing: .4em;
+            }
+            display: flex;
+            flex-wrap: wrap;
+           
+            border: solid 2px black;
+            align-content: center;
+        }
+        .ProjectPhoto {
+        
+            border: solid 2px black;
+        }
+
+        .ProjectComming {
+           display: flex;
+           flex-wrap: wrap;
+           align-content: center;
+           justify-content: center;
+            letter-spacing: 0.25em;
+            line-height: 1.7em;
+            word-spacing: .4em;
+        }
+      
+    }
+}
+

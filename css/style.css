@@ -1,0 +1,62 @@
+h1 {
+  font-family: roc-grotesk-extrawide, sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+p {
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-image: url("../images/background1.png");
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .Hero {
+  padding-left: 2rem;
+  border: 2px solid black;
+}
+body .Project {
+  border: solid 2px black;
+  margin: 2rem;
+}
+body .Project .ProjectText {
+  padding-left: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 2px black;
+  align-content: center;
+}
+body .Project .ProjectText p {
+  letter-spacing: 0.25em;
+  line-height: 1.7em;
+  word-spacing: 0.4em;
+}
+body .Project .ProjectPhoto {
+  border: solid 2px black;
+}
+body .Project .ProjectComming {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  letter-spacing: 0.25em;
+  line-height: 1.7em;
+  word-spacing: 0.4em;
+}
+
+/*# sourceMappingURL=style.css.map */
